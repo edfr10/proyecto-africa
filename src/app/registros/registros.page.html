@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>registros</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<fieldset>
+
+  
+  <label> Nombre </label>
+  <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+  <br><br>
+  
+  <label> Apellidos </label>
+  <input type="text" name="Apellidos" id="Apellidos" placeholder="Apellidos">
+  <br><br>
+  
+  <label for="sexo"> Sexo </label>
+  <input type="radio" name="sexo" value="Masculino" autofocus="Hombre" > Masculino
+  <input type="radio" name="sexo" value="Femenino" autofocus="Hombre" > Femenino
+  <br><br>
+
+  <label> cumpleaños </label>
+  <input type="date" name="Fecha" id="Fecha" placeholder="Fecha">
+  <br><br>
+ 
+  <label> email </label>
+  <input type="email" name="email" id="email" placeholder="email" required="enable">
+  <br><br> 
+
+  <label> Usuario </label>
+  <input type="text" name="Usuario" id="Usuario" placeholder="Usuario">
+  <br><br>
+  
+  <label> Password </label>
+  <input type="password" name="Password" id="Password" placeholder="Password">
+  
+</fieldset>
+
+<form >
+
+  <ion-button type="button" name="enviar" placeholder="enviar" (click)="home()" > Enviar</ion-button>
+
+
+
+
+</form>
+
+
+</ion-content>
